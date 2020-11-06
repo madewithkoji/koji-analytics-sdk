@@ -1,7 +1,7 @@
 {
   "name": "@withkoji/analytics",
-  "version": "0.0.1",
-  "description": "Track custom events in your Koji apps",
+  "version": "0.0.2",
+  "description": "Track custom events in your Koji templates",
   "main": "./dist/index.js",
   "repository": {
     "type": "git",

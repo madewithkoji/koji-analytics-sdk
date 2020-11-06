@@ -1,20 +1,40 @@
 # Koji Analytics
-**Support custom event tracking in your apps and games**
 
-## Getting started
+**Track custom events in your Koji templates.**
 
-Install the package:
+## Overview
+The @withkoji/analytics package enables you to track custom events in your Koji templates. For example, track onClick events for the links and buttons in a Koji.
+
+## Installation
+
+Install the package in the frontend service of your Koji project.
+
 ```
 npm install --save @withkoji/analytics
 ```
 
-Import the package into your app's root.
+## Basic use
+
+Import the package in your application code.
+
 ```
-import KojiAnalytics from '@withkoji/analytics';
+import Analytics from '@withkoji/analytics';
 ```
 
-Track custom events with unique names and optional payloads
+Track custom events with unique names and optional payloads.
+
 ```
-KojiAnalytics.track('My Custom Event');
-KojiAnalytics.track('Won game', { score: 120 });
+Analytics.track('My Custom Event');
+Analytics.track('Won game', { score: 120 });
 ```
+
+## Related resources
+
+* [Package documentation](https://developer.withkoji.com/reference/packages/withkoji-koji-analytics-sdk)
+* [Koji homepage](http://withkoji.com/)
+
+## Contributions and questions
+
+See the [contributions page](https://developer.withkoji.com/docs/about/contribute-koji-developers) on the developer site for info on how to make contributions to Koji repositories and developer documentation.
+
+For any questions, reach out to the developer community or the `@Koji Team` on our [Discord server](https://discord.gg/eQuMJF6).
