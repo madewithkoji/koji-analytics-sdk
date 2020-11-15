@@ -1,4 +1,5 @@
 # Koji Analytics
+![npm (scoped)](https://img.shields.io/npm/v/@withkoji/analytics?color=green&style=flat-square)
 
 **Track custom events in your Koji templates.**
 
