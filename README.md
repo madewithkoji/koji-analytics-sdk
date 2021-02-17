@@ -6,6 +6,9 @@
 ## Overview
 The @withkoji/analytics package enables you to track custom events in your Koji templates. For example, track onClick events for the links and buttons in a Koji.
 
+**[DEPRECATED]**
+This package is deprecated and is included only for backwards compatibility. For new templates, use [@withkoji/core](https://developer.withkoji.com/reference/packages/withkoji-koji-core).
+
 ## Installation
 
 Install the package in the frontend service of your Koji project.
@@ -38,4 +41,4 @@ Analytics.track('Won game', { score: 120 });
 
 See the [contributions page](https://developer.withkoji.com/docs/about/contribute-koji-developers) on the developer site for info on how to make contributions to Koji repositories and developer documentation.
 
-For any questions, reach out to the developer community or the `@Koji Team` on our [Discord server](https://discord.gg/eQuMJF6).
+For any questions, reach out to the developer community or the `@Koji Team` on our [Discord server](https://discord.com/invite/9egkTWf4ec).
