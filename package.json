@@ -1,6 +1,6 @@
 {
   "name": "@withkoji/analytics",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Track custom events in your Koji templates",
   "main": "./dist/index.js",
   "repository": {

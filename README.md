@@ -1,4 +1,4 @@
-# Koji Analytics
+# Koji Analytics (deprecated)
 ![npm (scoped)](https://img.shields.io/npm/v/@withkoji/analytics?color=green&style=flat-square)
 
 **Track custom events in your Koji templates.**
@@ -7,7 +7,7 @@
 The @withkoji/analytics package enables you to track custom events in your Koji templates. For example, track onClick events for the links and buttons in a Koji.
 
 **[DEPRECATED]**
-This package is deprecated and is included only for backwards compatibility. For new templates, use [@withkoji/core](https://developer.withkoji.com/reference/packages/withkoji-koji-core).
+This package is deprecated and is included only for backwards compatibility. For new templates, use [@withkoji/core](https://developer.withkoji.com/reference/core/withkoji-koji-core).
 
 ## Installation
 
@@ -34,7 +34,7 @@ Analytics.track('Won game', { score: 120 });
 
 ## Related resources
 
-* [Package documentation](https://developer.withkoji.com/reference/packages/withkoji-koji-analytics-sdk)
+* [Package documentation](https://developer.withkoji.com/reference/deprecated-packages/withkoji-koji-analytics-sdk)
 * [Koji homepage](http://withkoji.com/)
 
 ## Contributions and questions
